@@ -11,7 +11,7 @@ import store from './store'
 import ImgInputer from 'vue-img-inputer'
 import 'vue-img-inputer/dist/index.css'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
-import VueAnalytics from 'vue-analytics'
+import VueGtag from 'vue-gtag'
 Vue.component('ImgInputer', ImgInputer)
 
 Vue.config.productionTip = false
@@ -22,7 +22,7 @@ axios.defaults.withCredentials = true
 Vue.use(VueAxios, axios)
 Vue.use(VueSweetalert2)
 Vue.use(VueAwesomeSwiper /* { default options with global component } */)
-Vue.use(VueAnalytics, {
+Vue.use(VueGtag, {
   id: process.env.VUE_APP_GA
 })
 new Vue({
