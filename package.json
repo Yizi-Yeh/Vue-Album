@@ -13,6 +13,7 @@
     "core-js": "^3.6.5",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.0.0",
+    "serve": "^11.3.2",
     "swiper": "^6.3.5",
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",
